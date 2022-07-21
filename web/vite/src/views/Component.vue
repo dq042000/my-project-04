@@ -37,3 +37,20 @@ let num = ref(1);
 </script> -->
 
 <!-- ---兄弟組件之間的傳值----------------------------------- -->
+<!--
+    父組件 有 A組件、B組件，A組件的按鈕按下去會先傳給 父組件，父組件再傳給 B組件
+-->
+<template>
+    <A @fn="changeFn"></A>
+    <B :str="str"></B>
+</template>
+
+<script setup>
+import A from "../components/A.vue";
+import B from "../components/B.vue";
+
+let str = ref("");
+const changeFn = (n) => {
+    str.value = n.value;
+};
+</script>
