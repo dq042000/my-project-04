@@ -6,11 +6,12 @@
 </template>
 
 <script setup>
+// http://localhost:3000/#/route/?act=44445555
 let router = new useRouter();
 let route = new useRoute();
 console.log(route.query.act);
 let go = () => {
-    route.push("/watch");
+    router.push("/watch");
 };
 </script>
 
