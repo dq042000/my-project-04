@@ -60,8 +60,8 @@ const router = createRouter({
 // 這樣當「每一個」路由要進入之前，都會先經過這裡
 router.beforeEach((to, from) => {
     NProgress.start();
-    console.log("to:", to);
-    console.log("from:", from);
+    // console.log("to:", to);
+    // console.log("from:", from);
 });
 
 // 當路由跳轉結束後 (全域)
