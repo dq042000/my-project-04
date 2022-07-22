@@ -7,7 +7,9 @@
         <router-link to="/vuex">Vuex</router-link> |
         <router-link to="/route">Route</router-link> |
         <router-link to="/watch">Watch</router-link> |
-        <router-link to="/slot">Slot</router-link>
+        <router-link to="/slot">Slot</router-link> |
+        <router-link to="/teleport">Teleport</router-link> |
+        <router-link to="/tabs">Tabs</router-link>
     </div>
     <router-view />
 </template>
