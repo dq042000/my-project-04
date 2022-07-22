@@ -9,6 +9,7 @@ import Slot from "@/views/Slot.vue";
 import Teleport from "@/views/Teleport.vue";
 import Tabs from "@/views/Tabs.vue";
 import Asynchronous from "@/views/Asynchronous.vue";
+import Mixin from "@/views/Mixin.vue";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import NProgress from "nprogress";
@@ -72,6 +73,12 @@ export const constantRouterMap: AppRouteRecordRaw[] = [
         path: "/asynchronous",
         name: "Asynchronous",
         component: Asynchronous,
+        meta: {},
+    },
+    {
+        path: "/mixin",
+        name: "Mixin",
+        component: Mixin,
         meta: {},
     },
 ];
