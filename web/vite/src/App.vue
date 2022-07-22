@@ -9,7 +9,8 @@
         <router-link to="/watch">Watch</router-link> |
         <router-link to="/slot">Slot</router-link> |
         <router-link to="/teleport">Teleport</router-link> |
-        <router-link to="/tabs">Tabs</router-link>
+        <router-link to="/tabs">Tabs</router-link> |
+        <router-link to="/asynchronous">Asynchronous</router-link>
     </div>
     <router-view />
 </template>
