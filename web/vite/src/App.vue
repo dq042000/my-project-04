@@ -11,7 +11,8 @@
         <router-link to="/teleport">Teleport</router-link> |
         <router-link to="/tabs">Tabs</router-link> |
         <router-link to="/asynchronous">Asynchronous</router-link> |
-        <router-link to="/mixin">Mixin</router-link>
+        <router-link to="/mixin">Mixin</router-link> |
+        <router-link to="/proviedInject">ProviedInject</router-link>
     </div>
     <router-view />
 </template>
