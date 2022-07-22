@@ -1,5 +1,9 @@
-<template>Vuex</template>
+<template>
+    <VuexA></VuexA>
+</template>
 
-<script lang="ts"></script>
+<script setup>
+import VuexA from "../components/VuexA.vue";
+</script>
 
 <style></style>
