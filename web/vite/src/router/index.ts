@@ -5,6 +5,7 @@ import Component from "@/views/Component.vue";
 import Vuex from "@/views/Vuex.vue";
 import Route from "@/views/Route.vue";
 import Watch from "@/views/Watch.vue";
+import Slot from "@/views/Slot.vue";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import NProgress from "nprogress";
@@ -44,6 +45,12 @@ export const constantRouterMap: AppRouteRecordRaw[] = [
         path: "/watch",
         name: "Watch",
         component: Watch,
+        meta: {},
+    },
+    {
+        path: "/slot",
+        name: "Slot",
+        component: Slot,
         meta: {},
     },
 ];

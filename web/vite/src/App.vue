@@ -6,7 +6,8 @@
         <router-link to="/component">Component</router-link> |
         <router-link to="/vuex">Vuex</router-link> |
         <router-link to="/route">Route</router-link> |
-        <router-link to="/watch">Watch</router-link>
+        <router-link to="/watch">Watch</router-link> |
+        <router-link to="/slot">Slot</router-link>
     </div>
     <router-view />
 </template>
