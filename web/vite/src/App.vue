@@ -12,7 +12,8 @@
         <router-link to="/tabs">Tabs</router-link> |
         <router-link to="/asynchronous">Asynchronous</router-link> |
         <router-link to="/mixin">Mixin</router-link> |
-        <router-link to="/proviedInject">ProviedInject</router-link>
+        <router-link to="/proviedInject">ProviedInject</router-link> |
+        <router-link to="/pinia">Pinia</router-link>
     </div>
     <router-view />
 </template>

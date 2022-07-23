@@ -11,6 +11,7 @@ import Tabs from "@/views/Tabs.vue";
 import Asynchronous from "@/views/Asynchronous.vue";
 import Mixin from "@/views/Mixin.vue";
 import ProviedInject from "@/views/ProviedInject.vue";
+import Pinia from "@/views/Pinia.vue";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import NProgress from "nprogress";
@@ -86,6 +87,12 @@ export const constantRouterMap: AppRouteRecordRaw[] = [
         path: "/proviedInject",
         name: "ProviedInject",
         component: ProviedInject,
+        meta: {},
+    },
+    {
+        path: "/pinia",
+        name: "Pinia",
+        component: Pinia,
         meta: {},
     },
 ];
